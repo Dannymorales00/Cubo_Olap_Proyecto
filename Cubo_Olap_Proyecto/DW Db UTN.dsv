@@ -1,4 +1,4 @@
-﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="bf043c1f-67e0-4bb0-865c-9ab958c54923" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="510c9035-e9a0-4108-896c-7a7d03fe571a" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>DW Db UTN</ID>
   <Name>DW Db UTN</Name>
   <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
@@ -31,7 +31,7 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7271" scrolltop="-20" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="31260" y="16397" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-7271" scrolltop="-20" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="40967" y="17000" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01000000900150320100065461686f6d61" />
                   </font>
@@ -349,6 +349,7 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
+                  <xs:element name="CostoTotal" msdata:ReadOnly="true" msprop:design-time-name="5654ecb3-1ee3-46b7-a223-ea61d3fd8ed1" msprop:IsLogical="True" msprop:FriendlyName="CostoTotal" msprop:Description="" msprop:DbColumnName="CostoTotal" msprop:ComputedColumnExpression="CostoHora*300" type="xs:double" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -363,7 +364,7 @@
                   <xs:element name="IdTiempo" msprop:design-time-name="122f54e9-87ff-4a72-b6fc-d3d0c8abae2d" msprop:DbColumnName="IdTiempo" msprop:FriendlyName="IdTiempo" type="xs:int" minOccurs="0" />
                   <xs:element name="NotaAcademica" msprop:design-time-name="3cc21d0e-e94b-4bc7-800a-3379dbcf66f5" msprop:DbColumnName="NotaAcademica" msprop:FriendlyName="NotaAcademica" type="xs:double" minOccurs="0" />
                   <xs:element name="NotaEmpresarial" msprop:design-time-name="737cb6c8-d641-4c84-8fc3-0b414897ad70" msprop:DbColumnName="NotaEmpresarial" msprop:FriendlyName="NotaEmpresarial" type="xs:double" minOccurs="0" />
-                  <xs:element name="NotaGeneral" msdata:ReadOnly="true" msprop:Description="" msprop:ComputedColumnExpression="(NotaAcademica+NotaEmpresarial)/2" msprop:IsLogical="True" msprop:design-time-name="a1483733-0f71-485c-82f2-4ad4368cadab" msprop:DbColumnName="NotaGeneral" type="xs:double" minOccurs="0" />
+                  <xs:element name="NotaGeneral" msdata:ReadOnly="true" msprop:design-time-name="a1483733-0f71-485c-82f2-4ad4368cadab" msprop:IsLogical="True" msprop:Description="" msprop:DbColumnName="NotaGeneral" msprop:ComputedColumnExpression="(NotaAcademica+NotaEmpresarial)/2" type="xs:double" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
