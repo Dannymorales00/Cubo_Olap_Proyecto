@@ -39,10 +39,6 @@
       <Name>D Costos 4.dim</Name>
       <FullPath>D Costos 4.dim</FullPath>
     </ProjectItem>
-    <ProjectItem>
-      <Name>D Practicas.dim</Name>
-      <FullPath>D Practicas.dim</FullPath>
-    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>

@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="bcd94915-f80f-42fb-850d-308b14100136" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="ae1d8b24-147f-4ae5-855c-fffbdd16fb2e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>D Costos</ID>
   <Name>D Costos</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -42,57 +42,61 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1d0e99b6-9a04-4af2-a543-f8288f717fbd">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6e6a4b03-27d5-451e-adef-7d6a798c2b26">
     <DataSourceViewID>DW Db UTN</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="5bdfe81b-4eba-461c-bc3a-03bcd9fc5bcd">
+  <ErrorConfiguration dwd:design-time-name="bfc42afd-33a7-4fef-9e68-54e36b60ebc6">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="87a0bb80-f662-4451-bb44-1a70a83759f3">
+    <Attribute dwd:design-time-name="4fe25d67-b56f-49e8-8d96-7c0aa6d192f8">
       <ID>Id Costo</ID>
       <Name>Id Costo</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b423565a-a51b-4461-ac9d-5470bac0a15e">
+        <KeyColumn dwd:design-time-name="35f3a019-cfdb-48c0-b9fe-ec54f8a45beb">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8ef1c1b4-db85-4fa3-969a-f6bd1b076725">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="44fcf1ed-e1bd-413a-9b4a-e58e519a3115">
             <TableID>dbo_D_Costos</TableID>
             <ColumnID>IdCosto</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="034c3314-01b0-46d4-ae6e-02dbad5eaa44">
+        <AttributeRelationship dwd:design-time-name="e5989cea-eb89-4c02-9b2e-b06c2e9e887c">
           <AttributeID>Actividad</AttributeID>
           <Name>Actividad</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7c9b2096-a026-475b-a001-f6de919ac01c">
+        <AttributeRelationship dwd:design-time-name="bc09813e-5c62-422b-9f45-3012d98904d9">
           <AttributeID>Costo Hora</AttributeID>
           <Name>Costo Hora</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="bf3a250f-5c46-4e64-ba35-1f112612e484">
+        <AttributeRelationship dwd:design-time-name="0bfc1ce5-ed42-4bc2-a24d-a2de06e6c4d5">
           <AttributeID>Area</AttributeID>
           <Name>Area</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="554b92c1-9097-4273-935c-e0ee685c4105">
+          <AttributeID>Costo Total</AttributeID>
+          <Name>Costo Total</Name>
         </AttributeRelationship>
       </AttributeRelationships>
       <OrderBy>Key</OrderBy>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e7724e2d-1c1c-4afb-a94d-5dd9e6e721e8">
+    <Attribute dwd:design-time-name="4bc5ede6-8e42-4685-bc6b-0ad22b294610">
       <ID>Actividad</ID>
       <Name>Actividad</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="d36a5248-1742-40fa-8ce7-fea04c3e409b">
+        <KeyColumn dwd:design-time-name="ca502f6e-9c77-45ce-8cf2-63d7938475b4">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="5a479aaa-e7e7-4f10-bccd-12e9169af8c1">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6e856025-a616-492a-a7ab-cb06ce8ca6e8">
             <TableID>dbo_D_Costos</TableID>
             <ColumnID>Actividad</ColumnID>
           </Source>
@@ -102,13 +106,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="b802aada-5b68-4d04-8ce2-4133d4d9cf4e">
+    <Attribute dwd:design-time-name="14719fc1-f09f-412f-bf2a-c90966e7f45e">
       <ID>Costo Hora</ID>
       <Name>Costo Hora</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="68f21496-3845-4888-ad98-029a5993ad08">
+        <KeyColumn dwd:design-time-name="5a303200-d81f-46e8-afbc-6412893e792c">
           <DataType>Double</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8ef57d8c-a33a-47ae-9272-3bfaeda75d48">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9afc1375-0fce-431e-a20f-214ad2150417">
             <TableID>dbo_D_Costos</TableID>
             <ColumnID>CostoHora</ColumnID>
           </Source>
@@ -118,16 +122,32 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="8ecbb9b8-bf8a-4496-a948-fa549a5e5ad1">
+    <Attribute dwd:design-time-name="d4e828e4-a90c-488e-9992-337f22572a46">
       <ID>Area</ID>
       <Name>Area</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2938067e-5e0f-4532-9280-e201d1d5ac98">
+        <KeyColumn dwd:design-time-name="552659d5-0b32-49a6-9608-a3307ef4f830">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="adb1c5b2-5517-43fd-99dd-35008796080f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="bc954a4f-917d-4606-8189-de76da91ac18">
             <TableID>dbo_D_Costos</TableID>
             <ColumnID>Area</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ba3472de-6d6a-48ac-af41-b098432ab547">
+      <ID>Costo Total</ID>
+      <Name>Costo Total</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bbac1333-0849-41ce-b135-ac023d9d0b74">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="58d5513a-9000-4e84-83c7-15fc36db94f1">
+            <TableID>dbo_D_Costos</TableID>
+            <ColumnID>CostoTotal</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
