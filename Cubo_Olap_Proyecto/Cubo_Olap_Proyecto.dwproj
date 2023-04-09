@@ -24,10 +24,6 @@
       <FullPath>D Geograficas 2.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>D Tiempos 4.dim</Name>
-      <FullPath>D Tiempos 4.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>D Empresas 4.dim</Name>
       <FullPath>D Empresas 4.dim</FullPath>
     </ProjectItem>
@@ -38,6 +34,10 @@
     <ProjectItem>
       <Name>D Costos 4.dim</Name>
       <FullPath>D Costos 4.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>D Tiempos 4.dim</Name>
+      <FullPath>D Tiempos 4.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
